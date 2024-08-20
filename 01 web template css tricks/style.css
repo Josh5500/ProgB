@@ -18,11 +18,18 @@
 .visible{
     left:0;
 }
-#imagebox{
-    background-image: url(./assets/alex-shuper-x1r-KvORAMo-unsplash.jpg);
+.imagebox{
+    background-image: url(./pic.jpg);
     background-size: cover;
     background-position:center,center; 
 }
+.halfbox{
+    grid-template-columns: 1fr 1fr;
+}
+#rightimage{
+    background-image:url(./pic.jpg);
+}
+
 
 #page1{
     background:linear-gradient(180deg,lightgreen,cyan,lightgreen);
@@ -33,12 +40,19 @@
 }
 #page3{
     background-color: red;
+    grid-template-columns: 4fr 2fr 1fr;
 }
+
+#page3 div{
+    width:100%;
+    height:100%;
+}
+
 #page4{
     background:linear-gradient(70deg,red,purple,orange);
 }
 
-h1{
+.h1{
     font-family: Raleway;
     color:hotpink;
 
