@@ -87,7 +87,7 @@ header.hidden:hover .menuItem{
 
 
 #page1{
-    background:linear-gradient(90deg,black,cyan,red);
+    background:linear-gradient(90deg,black,white,red);
 grid-template-columns: 1fr 3fr;
 }
 
@@ -108,6 +108,9 @@ grid-template-columns: 1fr 3fr;
     grid-template-columns:4fr 2fr 1fr;
 text-align:center;
 font-size:50px;
+font-family: "Baskervville SC", serif;
+  font-weight: 400;
+  font-style: normal;
 
     
 
@@ -148,22 +151,192 @@ font-size:50px;
 
 
 #page2{
-    background-color: red;
-}
-#page3{
-    background-color: red;
-    grid-template-columns:4fr 2fr 1fr;
+    background:linear-gradient(33deg,white,black,red);
 }
 
-#page3 div{
-    width:100%;
-    height:100%;
+
+#page2 .DescriptionDiv{
+    position:absolute;
+    background-color: transparent orange;
+    margin-right:60%;
+    margin-top:5%;
+    width:70vh;
+    height:75vh;
+    color:whitesmoke;
+    font-size:30px;
+   
+
 }
+
+#page2 .DescriptionText{
+    position:absolute;
+    background-color: transparent cyan;
+    margin-right:73.7%;
+    margin-bottom:32.1%;
+    width:40vh;
+    height:7vh;
+    color:whitesmoke;
+    font-size:40px;
+   
+
+}
+
+
+#page2 .DescriptionDivPic1{
+    position:absolute;
+    background-color: white;
+    margin-left:70%;
+    margin-bottom:15%;
+    width: 55vh;
+    height:35vh;
+    text-align:center;
+    font-size:30px;
+    background-image: url(./assets/ROW_Wolfenstein_II_Parade_16x9_1080p_1500898581.png);
+    background-size:120%;
+   
+
+}
+
+#page2 .DescriptionDivPic2{
+    position:absolute;
+    background-color: grey;
+    margin-left:10%;
+    margin-bottom:15%;
+    width:55vh;
+    height:40vh;
+    text-align:center;
+    font-size:30px;
+    background-image: url(./assets/wolfenstein21280-1509060217841.jpg);
+    background-size:130%;
+   
+
+}
+
+#page2 .DescriptionDivPic3{
+    position:absolute;
+    background-color: green;
+    margin-left:10%;
+    margin-top:25%;
+    width:55vh;
+    height:36vh;
+    text-align:center;
+    font-size:30px;
+    background-image: url(./assets/Wolfenstein-2-The-New-Colossus.jpg);
+    background-size:120%;
+   
+
+}
+#page2 .DescriptionDivPic4{
+    position:absolute;
+    background-color: transparent orange;
+    margin-left:70%;
+    margin-top:25%;
+    width:55vh;
+    height:35vh;
+    text-align:center;
+    font-size:30px;
+    background-image: url(./assets/H5ULB4C5xysGeDa2jiunLY-1200-80.jpg);
+    background-size:120%;
+   
+
+}
+
+
+
+#page3{
+    position:absolute;
+    background:linear-gradient(20deg,black,red,white);
+
+
+}
+
+#page3 .WhyPage1{
+    position:absolute;
+    background-color: transparent yellow;
+    width:40vh;
+    height:40vh;
+    margin-right:70%;
+    margin-bottom:15%;
+    
+    font-size:50px;
+    
+
+}
+
+#page3 .WhyPage2{
+    position:absolute;
+    background-color: transparent green;
+    width:40vh;
+    height:60vh;
+    margin-right:69.3%;
+    margin-top:5%;
+
+    font-size:35px;
+
+}
+#page3 .WhyPage3{
+    position:absolute;
+    background-color: green;
+    width:50vh;
+    height:33vh;
+    margin-left:65%;
+    margin-top:20%;
+    font-size:35px;
+    background-image: url(./assets/wolfenstein-2-the-new-colossus-all-gameplay-news-trailers_zmcq.jpg);
+background-size:120%;
+
+}
+#page3 .WhyPage4{
+    position:absolute;
+    background-color:  pink;
+    width:70vh;
+    height:43vh;
+    margin-right:10%;
+    margin-bottom:15%;
+background-image: url(./assets/cy1quef03uh71.webp);
+background-size:110%;
+
+    font-size:35px;
+
+}
+
 
 #page4{
-    background:linear-gradient(70deg,red,purple,orange);
+    background:linear-gradient(120deg,white,red,black);
 }
 
+#page4 .GameStud1{
+    position:absolute;
+    background-color:  transparent pink;
+    width:60vh;
+    height:10vh;
+    margin-right:64.5%;
+    margin-bottom:30%;
+
+    font-size:40px;
+}
+
+#page4 .GameStud2{
+    position:absolute;
+    background-color:  transparent black;
+    width:50vh;
+    height:35vh;
+    margin-right:69%;
+    margin-bottom:8%;
+
+    font-size:30px;
+}
+#page4 .GameStud3{
+    position:absolute;
+    background-color:  transparent red;
+    width:100vh;
+    height:38vh;
+    margin-left:15%;
+    margin-bottom:1%;
+    background-image: url(./assets/MachineGames.png);
+    background-size:100%;
+    font-size:35px;
+}
 .h1{
     font-family: Raleway;
     color:hotpink;
